@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chore Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "chore list"> </div>
+    <button id = "randomize" onclick="randomize()">Randomize</button>
+    <label for="chore">Add a chore seperate them by commas:</label>
+    <input type="text" id="chore" name="chore">
+    <button id = "addchores" onclick="addChores()">Add</button>
+    <label for = "People">Add a person (seperate them by commas):</label>
+    <input type="text" id="people" name="people">
+    <button id = "addpeople" onclick="addPeople()">Add</button>
+    <script src="script.js"></script>
+    <div class = "output"><label for="output" id = "output"></label></div>
+</body>
+</html>
